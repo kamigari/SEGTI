@@ -10,7 +10,7 @@ end
 hist(x)
 fprintf('La media aritmetica es:')
 disp(mean(x))
-fprintf('La moda es:')
+fprintf('La mediana es:')
 disp(median(x))
 fprintf('La desviacion media respecto a la media aritmetica es:')
 disp(sum(abs(x-mean(x)))/length(x))
