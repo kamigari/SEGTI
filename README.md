@@ -10,3 +10,5 @@ El jar tan solo tiene que ejecutarse desde la consola con la simple linea de com
 % de asimetria de Pearson y la curtosis.
 %
 % Para ejecutar solo se necesita pasar como parametro un vector de datos estadisticos.
+
+El archivo .jar esta creado de los archivos que se pueden encontrar en las librerias de bouncy castle, en los cuales esta la implementación del algoritmo de cifrado 'gost r 34.11-94'.
