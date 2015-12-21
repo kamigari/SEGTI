@@ -5,12 +5,12 @@ function estadisticas(x)
 %
 % Para ejecutar solo se necesita pasar como parametro un vector de datos estadisticos.
 if(nargin == 0)
-disp('Error, tiene que introducir un vector de datos.')
+disp('Error, tiene que introducir un vector de probabilidades muestrales.')
 end
 hist(x)
-fprintf('La media aritmetica es:')
-disp(mean(x))
-fprintf('La mediana es:')
+fprintf('La media aritmetica en porcentaje es:')
+disp(mean(x)*100/length(x))
+fprintf('La moda es:')
 disp(median(x))
 fprintf('La desviacion media respecto a la media aritmetica es:')
 disp(sum(abs(x-mean(x)))/length(x))
